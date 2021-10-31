@@ -1,0 +1,10 @@
+How does the internet work? 
+
+The internet is the actual network of connected computing devices worldwide.  The world wide web is a collection of interlinked websites and other web resources. The web and web browsers allow users to browse content, interact with other users, and share information.
+
+A user's device or program makes a request for data. A server (device or program) in the network waits for incoming requests and sends data back.
+
+
+What happens when you click a link? 
+
+When a user clicks on a link to it is a request for information, and the server responds with a status code being part of the request. The status code tells if the request was completed or if there was an error, and helps the browser know how to deal with the data sent back. If all is well, when a user clicks a link, the server will send the html file to the user's device or program.  

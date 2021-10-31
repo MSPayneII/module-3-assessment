@@ -1,0 +1,80 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  border-bottom: 2px solid orange;
+}
+
+ol {
+  padding-left: 0;
+}
+
+.crumb {
+  margin-right: 2em;
+  display: inline;
+}
+
+a {
+  color: orange;
+}
+
+a:visited {
+  color: crimson;
+}
+
+input {
+  display: block;
+}
+
+img {
+  max-width: 300px;
+}
+
+fieldset,
+input {
+  margin-bottom: 1rem;
+}
+
+.profile-header {
+  margin-bottom: 3rem;
+}
+.profile-img {
+  max-width: 500px;
+  height: 300px;
+}
+
+.img-careergoals {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.career-goals > h2 {
+  margin-top: 0;
+}
+
+.large-yellow-btn {
+  width: 9rem;
+  height: 3rem;
+  background: #edd94c;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.district7-vid {
+  max-width: 500px;
+  height: 315px;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+}
+
+.restuarant-recommendation-section {
+  display: none;
+}

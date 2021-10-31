@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about-hood.html">My Hood</a></li>
+      </ol>
+    </nav>
+
+    <content>
+      <h1>Welcome to this little website.</h1>
+      <p>Hello World</p>
+      <p>
+        Thank you for visiting my page. If you would like to contact me, fill
+        out and submit the form below.
+      </p>
+
+      <ul>
+        <li>You are an awesome person!</li>
+        <li>I appreciate you alot!</li>
+        <li>You are the best!</li>
+      </ul>
+
+      <!-- Photo by Brett Jordan on Unsplash -->
+      <img
+        src="./brett-jordan-wF7GqWA3Tag-unsplash.jpeg"
+        alt="A yellow duck in a Batman costume"
+      />
+
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" />
+
+        <fieldset>
+          <legend>How did you hear about this website?</legend>
+          <label for="how-they-heard"></label>
+
+          <label for="google">Google</label>
+          <input type="checkbox" id="google-checkbox" name="google" />
+
+          <label for="friend">A friend</label>
+          <input type="checkbox" id="friend-checkbox" name="friend" />
+
+          <label for="Other">Other</label>
+          <input type="checkbox" id="other-checkbox" name="other" />
+        </fieldset>
+
+        Message:
+        <input type="textarea" />
+
+        <input type="submit" />
+      </form>
+    </content>
+
+    <script src="home.js"></script>
+  </body>
+</html>
